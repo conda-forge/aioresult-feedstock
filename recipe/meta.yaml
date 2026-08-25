@@ -1,13 +1,13 @@
 {% set name = "aioresult" %}
-{% set version = "1.2" %}
+{% set version = "1.3" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/aioresult-{{ version }}.tar.gz
-  sha256: 627c9f452e851d71635fb1d88ce9c0ad371f112eadd33f1753b2469f645f3003
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/aioresult-{{ version }}.tar.gz
+  sha256: 30be7ce6a4af6c4824bf7996fdcc186a5d00004a37053689ecd8750232ea4777
 
 build:
   noarch: python
